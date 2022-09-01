@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A7E7271228C09BA70036F1C8 /* CustomShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7E7271128C09BA70036F1C8 /* CustomShape.swift */; };
 		DA8C97392476889400DDD59D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C97382476889400DDD59D /* AppDelegate.swift */; };
 		DA8C973B2476889400DDD59D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C973A2476889400DDD59D /* SceneDelegate.swift */; };
 		DA8C973D2476889400DDD59D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8C973C2476889400DDD59D /* ContentView.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A7E7271128C09BA70036F1C8 /* CustomShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomShape.swift; sourceTree = "<group>"; };
 		DA8C97352476889400DDD59D /* AppleWatchStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppleWatchStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA8C97382476889400DDD59D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DA8C973A2476889400DDD59D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 				DA8C97382476889400DDD59D /* AppDelegate.swift */,
 				DA8C973A2476889400DDD59D /* SceneDelegate.swift */,
 				DA8C973C2476889400DDD59D /* ContentView.swift */,
+				A7E7271128C09BA70036F1C8 /* CustomShape.swift */,
 				DA8C973E247688DB00DDD59D /* Assets.xcassets */,
 				DA8C9743247688DB00DDD59D /* LaunchScreen.storyboard */,
 				DA8C9746247688DB00DDD59D /* Info.plist */,
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7E7271228C09BA70036F1C8 /* CustomShape.swift in Sources */,
 				DA8C97392476889400DDD59D /* AppDelegate.swift in Sources */,
 				DA8C973B2476889400DDD59D /* SceneDelegate.swift in Sources */,
 				DA8C973D2476889400DDD59D /* ContentView.swift in Sources */,
