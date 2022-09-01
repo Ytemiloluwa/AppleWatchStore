@@ -599,3 +599,23 @@ struct Detail: View {
         
     }
 }
+// menu Buttons
+
+var menu  = ["ALL", "CLASSIC", "GRAND", "FORMAL", "ORIGINAL", "TREND"]
+// sample watch data
+
+
+struct Watch: Identifiable, Hashable {
+    
+    var id: Int
+    var color: String
+    var price: String
+    var image: String
+    var title: String
+}
+var data = [  Watch(id: 0, color: "White", price: "$650", image: "white", title: "Classic White"),
+              Watch(id: 1, color: "Black", price: "500", image: "black", title: "Classic Black"),
+              Watch(id: 2, color: "Gold", price: "$750", image: "gold", title: "Classic Gold"),
+              Watch(id: 3, color: "Red", price: "$500", image: "red", title: "Classic Red"),
+              Watch(id: 4, color: "Yellow", price: "500", image: "yellow", title: "Classic Yellow")]
+
